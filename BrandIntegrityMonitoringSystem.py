@@ -42,7 +42,7 @@ def main():
             image_text = image_to_text(image_data)
             messages.append({'role': 'user', 'content': f"Image text: {image_text}"})
 
-        response = openai.Completion.create(
+        response = openai.ChatCompletion.create(
             messages=messages,
             engine="gpt-35-turbo-16k-2",
             temperature=0,
