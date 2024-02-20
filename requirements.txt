@@ -1,5 +1,4 @@
 openai
 streamlit
 pytesseract
-io
 pandas
