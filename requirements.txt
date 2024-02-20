@@ -1,4 +1,4 @@
-openai migrate
+openai
 streamlit
 pytesseract
 pandas
