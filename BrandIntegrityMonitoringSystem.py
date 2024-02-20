@@ -18,7 +18,7 @@ def main():
     openai.api_type = "azure"
     openai.api_base = "https://cloudcafe42.openai.azure.com/"
     openai.api_version = "2023-07-01-preview"   
-    openai.api_key = "555e301743b341c6ad65d16567490571"
+    openai.api_key = st.secrets["openai_api_key"]
     
     st.set_page_config(page_title="Brand Integrity Monitoring System", page_icon=":guardsman:", layout="wide")
 
